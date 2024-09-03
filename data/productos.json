@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "harina",
+    "description": "producto",
+    "code": "000143",
+    "price": "900",
+    "stock": "1000",
+    "category": "mercaderia",
+    "thumbnails": "http://ejemp.com",
+    "status": true
+  },
+  {
+    "id": 2,
+    "title": "botella de agua",
+    "description": "producto",
+    "code": "9877",
+    "price": "1200",
+    "stock": "800",
+    "category": "bebidas",
+    "thumbnails": "http://eje.com",
+    "status": true
+  },
+  {
+    "id": 3,
+    "title": "campera",
+    "description": "producto",
+    "code": "888881",
+    "price": "18000",
+    "stock": "100",
+    "category": "ropa",
+    "thumbnails": "http://ropa.com",
+    "status": true
+  },
+  {
+    "id": 4,
+    "title": "zapatillas",
+    "description": "producto",
+    "code": "11123",
+    "price": "20000",
+    "stock": "2300",
+    "category": "zapatillas-sport",
+    "thumbnails": "http://zapa.com",
+    "status": true
+  },
+  {
+    "id": 5,
+    "title": "tv",
+    "description": "producto",
+    "code": "122345",
+    "price": "300000",
+    "stock": "300",
+    "category": "electronico",
+    "thumbnails": "http://ejemp.com",
+    "status": true
+  },
+  {
+    "id": 6,
+    "title": "azucar",
+    "description": "producto",
+    "code": "8888",
+    "price": "1200",
+    "stock": "800",
+    "category": "mercaderia",
+    "thumbnails": "http://eje.com",
+    "status": true
+  }
+]

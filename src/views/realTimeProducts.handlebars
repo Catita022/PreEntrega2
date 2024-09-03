@@ -1,0 +1,76 @@
+<div class="container; flex flex-direction:column">
+
+    <form id="registerForm" class="form">
+        <div>
+
+            <label>Title</label>
+            <input type="text" name="title" required>
+        </div>
+        <div>
+            <label>Description</label>
+            <input type="text" name="description" required>
+        </div>
+        <div>
+            <label>Code</label>
+            <input type="number" name="code" required>
+        </div>
+        <div>
+            <label>Price</label>
+            <input type="number" name="price" required>
+        </div>
+        <div>
+            <label>Stock</label>
+            <input type="number" name="stock" required>
+        </div>
+        <div>
+            <label>Category</label>
+            <input type="text" name="category" required>
+        </div>
+        <div>
+            <label>Thumbnails</label>
+            <input type="" name="thumbnails" required>
+        </div>
+        <div>
+            <label>Status</label>
+            <input type="text" name="status" required>
+        </div>
+        <div>
+
+            <button id="crearProducts">crear</button>
+        </div>
+    </form>
+
+    <div style="display: flex ;flex-wrap: wrap;">
+
+       
+        <li style="list-style-type: none; border: 2px solid #694040;padding: 10px;width: fit-content;margin: 10px;">
+            <h2>Producto</h2>
+
+            <p id="title"></p>
+            <p id="description"></p>
+            <p id="code"></p>
+            <p id="price"></p>
+            <p id="stock"></p>
+            <p id="category"></p>
+
+        </li>
+        
+
+
+    </div>
+
+    
+
+    <button id="deletePoducts" class="miButton">delete</button>
+
+
+
+
+
+
+</div>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realTimeProducts.js"></script>
+

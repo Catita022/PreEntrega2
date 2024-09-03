@@ -1,0 +1,20 @@
+<div style="display: flex ;flex-wrap: wrap;">
+    
+   
+    {{#each obj}}
+    <li style="list-style-type: none; border: 2px solid #694040;padding: 10px;width: fit-content;margin: 10px;">
+        <h2>{{this.title}}</h2>
+        
+        <p>Descripción: {{this.description}}</p>
+        <p>Código : {{this.code}}</p>
+        <p>Precio: {{this.price}}</p>
+        <p>Stock : {{this.stock}}</p>
+        <p>Categoria :{{this.category}}</p>
+
+    </li>
+    {{/each}}
+    
+  
+</div>
+
+{{!-- <script src="/js/index.js"></script> --}}

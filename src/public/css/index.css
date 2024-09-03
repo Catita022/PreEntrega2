@@ -1,0 +1,77 @@
+
+p{
+    color:rgb(230, 230, 239);
+}
+h2{
+    color:white;
+}
+
+body, html {
+    background-color: rgb(29, 26, 26);
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 95%;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: flex-end;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form div {
+    margin-bottom: 15px;
+}
+
+.form label {
+    margin-right: 10px;
+    color:white;
+}
+
+.form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+.miButton{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.miButton:hover{
+    background-color: blue;
+}
